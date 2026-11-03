@@ -108,4 +108,4 @@ sudo dd bs=4M if=path/to/archlinux-x86_64.iso of=/dev/sdX status=progress oflag=
 root@archiso ~ #
 ```
 
-You are now in the Arch Linux live environment! Proceed to [Step 1: Boot & Live Environment](/installation/live-environment/).
+You are now in the Arch Linux live environment! Proceed to [Step 1: Boot & Live Environment](/arch-docs/installation/live-environment/).

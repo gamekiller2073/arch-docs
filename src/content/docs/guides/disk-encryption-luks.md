@@ -20,7 +20,7 @@ In a standard LUKS setup:
 
 ## 2. Partitioning for LUKS
 
-During [Step 2: Partitioning](/installation/partitioning/), create only two partitions:
+During [Step 2: Partitioning](/arch-docs/installation/partitioning/), create only two partitions:
 
 1. **Partition 1 (`nvme0n1p1`)**: 1 GiB `EFI System`
 2. **Partition 2 (`nvme0n1p2`)**: Remainder of disk `Linux filesystem` (This will become the encrypted container)
@@ -68,13 +68,13 @@ mkfs.fat -F 32 /dev/nvme0n1p1
 mount --mkdir /dev/nvme0n1p1 /mnt/boot
 ```
 
-Now proceed with [Step 3: Base System Installation](/installation/base-system/) as usual.
+Now proceed with [Step 3: Base System Installation](/arch-docs/installation/base-system/) as usual.
 
 ---
 
 ## 5. Configure Initramfs Hooks (`mkinitcpio.conf`)
 
-Inside your `arch-chroot` environment during [Step 4](/installation/system-configuration/), you must teach the early boot environment to prompt for the decryption passphrase.
+Inside your `arch-chroot` environment during [Step 4](/arch-docs/installation/system-configuration/), you must teach the early boot environment to prompt for the decryption passphrase.
 
 Open `/etc/mkinitcpio.conf`:
 

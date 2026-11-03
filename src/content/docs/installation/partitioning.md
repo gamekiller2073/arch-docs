@@ -136,4 +136,4 @@ Expected mountpoints:
 - `nvme0n1p2` → `[SWAP]`
 - `nvme0n1p3` → `/mnt`
 
-With your partitions ready and mounted, proceed to [Step 3: Base System Installation](/installation/base-system/)!
+With your partitions ready and mounted, proceed to [Step 3: Base System Installation](/arch-docs/installation/base-system/)!

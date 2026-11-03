@@ -110,6 +110,6 @@ ping -c 3 archlinux.org
 Right now, your installation is a minimal text-only system without regular user accounts or a graphical desktop.
 
 Head over to the **Post-Installation** guides to set up:
-1. **[User Accounts & Sudo](/post-install/users-and-sudo/)** *(Never run your daily tasks as root!)*
-2. **[Pacman & The AUR](/post-install/pacman-and-aur/)** *(Supercharge your software repository access)*
-3. **[Drivers, Audio & Desktops](/post-install/desktop-and-graphics/)** *(Install KDE, GNOME, or Hyprland, GPU drivers, and PipeWire sound)*
+1. **[User Accounts & Sudo](/arch-docs/post-install/users-and-sudo/)** *(Never run your daily tasks as root!)*
+2. **[Pacman & The AUR](/arch-docs/post-install/pacman-and-aur/)** *(Supercharge your software repository access)*
+3. **[Drivers, Audio & Desktops](/arch-docs/post-install/desktop-and-graphics/)** *(Install KDE, GNOME, or Hyprland, GPU drivers, and PipeWire sound)*

@@ -90,4 +90,4 @@ If the file looks empty or malformed, do not proceed—re-run the `genfstab` com
 
 ---
 
-With your base system in place and filesystem mounts recorded, head to [Step 4: System Configuration](/installation/system-configuration/)!
+With your base system in place and filesystem mounts recorded, head to [Step 4: System Configuration](/arch-docs/installation/system-configuration/)!

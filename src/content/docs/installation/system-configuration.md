@@ -143,4 +143,4 @@ Type your chosen password twice (keystrokes will remain invisible for security).
 
 ---
 
-Your system configuration is complete! Next, let's configure how the motherboard boots your kernel in [Step 5: Bootloader & Microcode](/installation/bootloader/).
+Your system configuration is complete! Next, let's configure how the motherboard boots your kernel in [Step 5: Bootloader & Microcode](/arch-docs/installation/bootloader/).

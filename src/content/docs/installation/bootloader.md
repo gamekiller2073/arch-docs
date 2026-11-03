@@ -99,4 +99,4 @@ done
 
 ---
 
-With your bootloader successfully installed, your disk is now fully bootable. Proceed to [Step 6: Reboot & First Boot](/installation/first-boot/)!
+With your bootloader successfully installed, your disk is now fully bootable. Proceed to [Step 6: Reboot & First Boot](/arch-docs/installation/first-boot/)!

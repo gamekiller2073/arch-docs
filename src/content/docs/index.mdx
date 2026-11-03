@@ -8,14 +8,14 @@ hero:
     file: ../../assets/arch-logo.svg
   actions:
     - text: Start Manual Installation
-      link: /installation/live-environment/
+      link: /arch-docs/installation/live-environment/
       icon: right-arrow
     - text: Gaming on Arch
-      link: /guides/gaming/
+      link: /arch-docs/guides/gaming/
       icon: rocket
       variant: secondary
     - text: Why Arch Linux?
-      link: /introduction/why-arch/
+      link: /arch-docs/introduction/why-arch/
       icon: open-book
       variant: minimal
 ---
@@ -52,32 +52,32 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 Follow these in-depth sections to build, customize, and maintain your Arch system:
 
 ### 🔰 1. Getting Started
-- **[Why Arch Linux?](/introduction/why-arch/)** — The Arch philosophy (KISS), rolling release model, and comparison with Ubuntu/Debian/Fedora.
-- **[What You Can Do With Arch](/introduction/what-you-can-do/)** — Tour real setups: developer workstations, ricing builds, and homelabs.
-- **[Prerequisites & Preparation](/introduction/prerequisites/)** — USB preparation (Ventoy/Rufus), Secure Boot, and BIOS checklists.
+- **[Why Arch Linux?](/arch-docs/introduction/why-arch/)** — The Arch philosophy (KISS), rolling release model, and comparison with Ubuntu/Debian/Fedora.
+- **[What You Can Do With Arch](/arch-docs/introduction/what-you-can-do/)** — Tour real setups: developer workstations, ricing builds, and homelabs.
+- **[Prerequisites & Preparation](/arch-docs/introduction/prerequisites/)** — USB preparation (Ventoy/Rufus), Secure Boot, and BIOS checklists.
 
 ### 🛠️ 2. The Step-by-Step Manual Installation
-- **[Step 1: Boot & Live Environment](/installation/live-environment/)** — Shell prompt, keymaps, UEFI verification, and `iwctl` Wi-Fi setup.
-- **[Step 2: Partitioning & Formatting](/installation/partitioning/)** — Interactive `cfdisk` walkthrough, FAT32 EFI, Swap, and ext4 root.
-- **[Step 3: Base System Installation](/installation/base-system/)** — Mirror ranking, `pacstrap` core packages, and UUID-based `/etc/fstab`.
-- **[Step 4: System Configuration](/installation/system-configuration/)** — `arch-chroot`, timezone, locales, hostname, NetworkManager, and root password.
-- **[Step 5: Bootloader & Microcode](/installation/bootloader/)** — CPU microcode (`intel-ucode`/`amd-ucode`) and GRUB UEFI installation.
-- **[Step 6: Reboot & First Boot](/installation/first-boot/)** — Unmounting, rebooting into GRUB, and logging in.
+- **[Step 1: Boot & Live Environment](/arch-docs/installation/live-environment/)** — Shell prompt, keymaps, UEFI verification, and `iwctl` Wi-Fi setup.
+- **[Step 2: Partitioning & Formatting](/arch-docs/installation/partitioning/)** — Interactive `cfdisk` walkthrough, FAT32 EFI, Swap, and ext4 root.
+- **[Step 3: Base System Installation](/arch-docs/installation/base-system/)** — Mirror ranking, `pacstrap` core packages, and UUID-based `/etc/fstab`.
+- **[Step 4: System Configuration](/arch-docs/installation/system-configuration/)** — `arch-chroot`, timezone, locales, hostname, NetworkManager, and root password.
+- **[Step 5: Bootloader & Microcode](/arch-docs/installation/bootloader/)** — CPU microcode (`intel-ucode`/`amd-ucode`) and GRUB UEFI installation.
+- **[Step 6: Reboot & First Boot](/arch-docs/installation/first-boot/)** — Unmounting, rebooting into GRUB, and logging in.
 
 ### 🚀 3. Post-Installation Essentials
-- **[User Accounts & Sudo](/post-install/users-and-sudo/)** — Creating your non-root user and configuring `visudo`.
-- **[Pacman & The AUR](/post-install/pacman-and-aur/)** — Package management, parallel downloads, multilib, and installing `paru`/`yay`.
-- **[Drivers, Audio & Desktops](/post-install/desktop-and-graphics/)** — GPU drivers (AMD/Intel/NVIDIA), PipeWire sound, fonts, and installing KDE Plasma, GNOME, XFCE, or Hyprland.
+- **[User Accounts & Sudo](/arch-docs/post-install/users-and-sudo/)** — Creating your non-root user and configuring `visudo`.
+- **[Pacman & The AUR](/arch-docs/post-install/pacman-and-aur/)** — Package management, parallel downloads, multilib, and installing `paru`/`yay`.
+- **[Drivers, Audio & Desktops](/arch-docs/post-install/desktop-and-graphics/)** — GPU drivers (AMD/Intel/NVIDIA), PipeWire sound, fonts, and installing KDE Plasma, GNOME, XFCE, or Hyprland.
 
 ### 🌟 4. In-Depth Specialty Guides
-- **[Complete Guide to Gaming on Arch](/guides/gaming/)** — Steam, Proton-GE, Heroic Games Launcher, MangoHud, GameMode, Gamescope, and controllers.
-- **[Btrfs & Instant Rollback Snapshots](/guides/btrfs-and-snapshots/)** — Automated snapshotting on every pacman transaction with `snap-pac` and `grub-btrfs`.
-- **[The Art of "Ricing" (Hyprland & Dotfiles)](/guides/ricing-and-customization/)** — Wayland tools, aesthetics, Starship prompt, and bare Git repo dotfiles.
-- **[Laptop Power Management & Battery Life](/guides/laptop-power-management/)** — Power profiles, VA-API hardware video decoding, and NVIDIA Optimus power saving.
-- **[Dual-Booting Safely with Windows](/guides/dual-booting/)** — Partition layout, Windows RTC UTC fix, and `os-prober` in GRUB.
-- **[Full Disk Encryption with LUKS](/guides/disk-encryption-luks/)** — Bulletproof AES-256 disk encryption with early initramfs decryption.
-- **[System Maintenance & Longevity Checklist](/guides/maintenance-checklist/)** — Weekly/monthly maintenance habits, cache auto-cleaning, and handling `.pacnew` files.
+- **[Complete Guide to Gaming on Arch](/arch-docs/guides/gaming/)** — Steam, Proton-GE, Heroic Games Launcher, MangoHud, GameMode, Gamescope, and controllers.
+- **[Btrfs & Instant Rollback Snapshots](/arch-docs/guides/btrfs-and-snapshots/)** — Automated snapshotting on every pacman transaction with `snap-pac` and `grub-btrfs`.
+- **[The Art of "Ricing" (Hyprland & Dotfiles)](/arch-docs/guides/ricing-and-customization/)** — Wayland tools, aesthetics, Starship prompt, and bare Git repo dotfiles.
+- **[Laptop Power Management & Battery Life](/arch-docs/guides/laptop-power-management/)** — Power profiles, VA-API hardware video decoding, and NVIDIA Optimus power saving.
+- **[Dual-Booting Safely with Windows](/arch-docs/guides/dual-booting/)** — Partition layout, Windows RTC UTC fix, and `os-prober` in GRUB.
+- **[Full Disk Encryption with LUKS](/arch-docs/guides/disk-encryption-luks/)** — Bulletproof AES-256 disk encryption with early initramfs decryption.
+- **[System Maintenance & Longevity Checklist](/arch-docs/guides/maintenance-checklist/)** — Weekly/monthly maintenance habits, cache auto-cleaning, and handling `.pacnew` files.
 
 ### 📖 5. Reference
-- **[Pacman Command Reference & Rosetta Stone](/reference/pacman-cheatsheet/)** — Complete cheatsheet with APT and DNF side-by-side equivalents.
-- **[Common Issues & FAQ](/reference/faq/)** — Quick fixes for missing Wi-Fi, bootloader skips, keyring errors, and pacman lockfiles.
+- **[Pacman Command Reference & Rosetta Stone](/arch-docs/reference/pacman-cheatsheet/)** — Complete cheatsheet with APT and DNF side-by-side equivalents.
+- **[Common Issues & FAQ](/arch-docs/reference/faq/)** — Quick fixes for missing Wi-Fi, bootloader skips, keyring errors, and pacman lockfiles.

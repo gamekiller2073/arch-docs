@@ -117,4 +117,4 @@ Before proceeding to partitioning, ensure:
 - [x] `ping -c 3 archlinux.org` responds successfully
 - [x] System clock is synchronized via NTP
 
-Next step: [Step 2: Partitioning & Formatting](/installation/partitioning/)!
+Next step: [Step 2: Partitioning & Formatting](/arch-docs/installation/partitioning/)!
